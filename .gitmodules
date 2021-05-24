@@ -15,10 +15,10 @@
 	url = https://github.com/synerex/synerex_sxutil.git
 [submodule "provider"]
 	path = provider
-	url = https://github.com/synerex/synerex_provider
+url=https://github.com/ertlnagoya/synerex_provider
 [submodule "proto"]
 	path = proto
-	url = https://github.com/synerex/synerex_proto
+url=https://github.com/ertlnagoya/synerex_proto
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/synerex/synerex_gateway.git

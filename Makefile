@@ -9,7 +9,7 @@ GOTEST=$(GOCMD) test
 GOGET=$(GOCMD) get
 RM=rm
 
-SUBTARGETS=nodeserv server provider/map provider/fleet
+SUBTARGETS=nodeserv server provider/map provider/fleet provider/hello
 
 DOIT=$(shell if [ 30 -gt `git submodule status --recursive | wc -l` ];then echo "do"; fi)
 
